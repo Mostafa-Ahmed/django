@@ -1,8 +1,0 @@
-
-<ul>
-    {% for song in album.song_set.all %}
-        {% if song.is_favorite == True %}
-            <li>{{ song.song_title }}</li>
-        {% endif %}
-    {% endfor %}
-</ul>
